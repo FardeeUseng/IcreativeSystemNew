@@ -1,0 +1,223 @@
+.content {
+   margin-left: 90px;
+}
+
+/*=========== Start Search Restaurant ==========*/
+
+.placeList, .restaurant {
+   margin: 20px 30px;
+}
+.serachRestaurant{
+   align-items:center;
+}
+.searchRestaurant-left h3 {
+   font-size: 24px;
+}
+.searchRestaurant-right span{
+   border-left: 1px solid #134B8A;
+   margin: 8px 15px;
+}
+.selectRestaurant-item, .searchName input {
+   width: 185px;
+   height: 40px;
+   border-radius: 50px;
+   border:1px solid #134B8A;
+   color: rgb(109, 108, 108);
+   font-size: 14px;
+   font-weight: 400;
+}
+.selectRestaurant-item {
+   display: flex;
+   padding: 10px;
+}
+.searchName input {
+   width: 400px;
+   padding-left: 20px;
+}
+/*=========== End Search Restaurant ==========*/
+
+/*=========== Start Reataurant list ==========*/
+
+.restaurantList {
+   width: 400px;
+   height: 255px;
+   border-radius: 10px;
+   background-color: var(--container-color);
+   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.25);
+}
+.restaurantList .card-body:hover{
+   background-color: #f4f7f8;
+}
+.rest-img {
+   width: 60px;
+   height: 60px;
+   border-radius: 10px;
+   overflow: hidden;
+}
+.rest-img img{
+   width: 150%;
+   height: 150%;
+   margin-left: -25%;
+   margin-top: -25%;
+}
+.rest-image li {
+   height: 120px;
+   width: 120px;
+   overflow: hidden;
+}
+.rest-image img {
+   margin-left: -25%;
+   margin-top: -25%;
+   height: 200%;
+   width: 200%;
+}
+.rest-content{
+   margin-left: 10px;
+}
+.rest-title h5 {
+   font-size: 18px;
+   color: var(--font-color);
+   text-decoration: none;
+}
+.rest-open-left p {
+   font-size: 14px;
+   margin-top: 3px;
+}
+.rest-open-right span {
+   width: 11px;
+   height: 11px;
+   background-color: var(--nav-color-alt);
+   border-radius: 50%;
+}
+.rest-open-left p {
+   color: var(--nav-color);
+}
+.rest-open-right span{
+   background-color: #134B8A;
+}
+.rest-open-right p {
+   color: var(--font-color);
+}
+/*=========== End Reataurant list ==========*/
+
+/*=========== Start max-width 767px ==========*/
+
+@media screen and (max-width:767px) {
+   .content {
+      margin: 0;
+   }
+
+   /*=========== Start Reataurant Name for screen max-width 767px ==========*/
+
+   .searchName input {
+      width: 340px;
+   }
+   .searchName input, .selectRestaurant-item {
+      width: 100%;
+   }
+   .selectRestaurant-item{
+      margin: 10px 0;
+   }
+   /*=========== End Reataurant Name for screen max-width 767px ==========*/
+
+   /*=========== Start Reataurant list for screen max-width 767px ==========*/
+
+   .restaurantList{
+      height: 320px;
+   }
+   .rest-img{
+      margin: 20px 10px;
+      height: 60px;
+      width: 60px;
+   }
+   .rest-img img{
+      width: 150%;
+      height: 150%;
+   }
+   .rest-content{
+      margin-top: 30px;
+      margin-top: -10px;
+   }
+   .rest-title{
+      margin-top: 28px;
+   }
+   .rest-title h5{
+      font-size: 18px;
+   }
+   .rest-image li {
+      width: 100vw;
+      height: 176px;
+   }
+   .rest-image img {
+      width: 100%;
+      height: 100%;
+      border-radius: 10px;
+   }
+   .rest-open-left i, .rest-open-left p {
+      font-size: 14px;
+      margin-left: -8px;
+   }
+   .rest-open-right {
+      justify-content: center;
+      position: absolute;
+      top: 65px;
+      right: 25px;
+      width: 67px;
+      height: 31px;
+      background-color: #134B8A;
+      border-radius: 20px;
+   }
+   .rest-open-right p {
+      color: #fff;
+      position: absolute;
+      margin: 10px;
+      top: -5px;
+   }
+   .rest-image{
+      margin-top: 10px;
+   }
+   .rest-image li{
+      height: 150px;
+   }
+   .rest-image img{
+      margin-left: -50px;
+      width: 200%;
+      height: 150%;
+   }
+   /*=========== End Reataurant list ==========*/
+}
+/*=========== End max-width 767px ==========*/
+
+/*=========== Start max-width 375px ==========*/
+
+@media screen and (max-width:375px) {
+
+   /*=========== Start Restaurant List for screen max-width 375px ==========*/
+
+   .restaurantList{
+      width: 300px;
+      height: 250px;
+   }
+   .rest-img{
+      margin: 17px 5px;
+   }
+   .rest-content{
+      margin-left: 5px;
+   }
+   .rest-title h5{
+      font-size: 16px;
+   }
+   .rest-open-left p {
+      font-size: 10px;
+   }
+   .rest-image li {
+      height: 100px;
+   }
+   .rest-image img {
+      width:250%;
+      height: 150%;
+   }
+   /*=========== End Restaurant List for screen max-width 375px ==========*/
+   
+}
+/*=========== End max-width 375px ==========*/

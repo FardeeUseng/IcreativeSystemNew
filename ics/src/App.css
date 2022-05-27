@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
-}
+/*==================== Start Google Font Kanit ====================*/
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@200;300;400&family=Prompt:wght@200;300;400&display=swap');
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/*==================== End Google Font Kanit ====================*/
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+/*==================== Start Variables CSS ====================*/
 
-.App-link {
-  color: #61dafb;
-}
+:root {
+  --nav-color:  #134B8A;
+  --nav-color-alt: #0f1e56;
+  --body-color: #e0e0e0;
+  --container-color:#ffffff;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  /* font */
+  --body-font: 'kanit', 'sans-serif'; 
+  --font-color: #000;
+  --font-color-alt: #605c5c;
+} 
+/*==================== End Variables CSS ====================*/
+
+/*==================== Start BASE ====================*/
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+body {
+  font-family: var(--body-font);
+  background-color: var(--body-color);
+  color: var(--font-color);
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+/*==================== End BASE ====================*/

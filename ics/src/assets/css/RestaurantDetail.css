@@ -1,0 +1,174 @@
+/*=========== Start Restaurant detail top button ==========*/
+
+.restaurant-nav-left button {
+   background-color: #134B8A;
+   color: #fff;
+   padding: 5px 15px;
+   border-radius: 10px;
+   font-size: 18px;
+   border: none;
+}
+.restaurant-nav-right button{
+   width: 188px;
+   height: 34px;
+   border: none;
+}
+.restaurant-nav-right button:hover{
+   background-color: #134B8A;
+   color: #fff;
+}
+.restaurant-nav-right button:nth-child(1){
+   border-radius: 18px 0 0 18px;
+}
+.restaurant-nav-right button:nth-child(2){
+   border-radius: 0 18px 18px 0;
+}
+.restaurant-nav-active{
+   background-color: #134B8A;
+   color: #fff;
+}
+/*=========== End Restaurant detail top button ==========*/
+
+/*=========== Start Restaurant detail bottom ==========*/
+
+.restaurant-detail {
+   border-radius: 10px;
+   background-color: #C4D3E9;
+}
+.rest-detail{
+   margin-left: 15px;
+}
+.rest-title h5 {
+   font-size: 18px;
+}
+.rest-detail h5, p {
+   font-size: 16px;
+}
+/*=========== End Restaurant detail bottom ==========*/
+
+/*=========== Start Restaurant Image ==========*/
+
+.restaurant-items-img{
+   height: 450px;
+   overflow: hidden;
+}
+.restaurant-items-img img{
+   margin-top: -25px;
+   height: 150%;
+}
+.restaurant-img-item {
+   height: 330px;
+   overflow: hidden;
+}
+.restaurant-img-item img {
+   height: 150%;
+   margin-top: -25px;
+}
+/*=========== End Restaurant Image ==========*/
+
+/*=========== Start Screen for max-width 950px ==========*/
+
+@media screen and (max-width:950px) {
+   .restaurant-items-img{
+      height: 330px;
+      overflow: hidden;
+   }
+   .restaurant-items-img img{
+      margin-top: -25px;
+      height: 150%;
+   }
+   .restaurant-img-item {
+      height: 260px;
+      overflow: hidden;
+   }
+   .restaurant-img-item img {
+      height: 150%;
+      margin-top: -25px;
+   }
+}
+/*=========== Start Screen for max-width 950px ==========*/
+
+/*=========== Start Screen for max-width 767px ==========*/
+
+@media screen and (max-width:767px) {
+   .restaurant-nav-right {
+      margin-top: 25px;
+   }
+   .restaurant-items-img{
+      height: 350px;
+      overflow: hidden;
+   }
+   .restaurant-items-img img{
+      margin-top: -25px;
+      height: 150%;
+   }
+   .restaurant-img-item {
+      height: 330px;
+      overflow: hidden;
+   }
+   .restaurant-img-item img {
+      height: 150%;
+      margin-top: -25px;
+   }
+}
+/*=========== End Screen for max-width 950px ==========*/
+
+/*=========== Start Screen for max-width 375px ==========*/
+
+@media screen and (max-width:375px) {
+   .restaurant-items-img{
+      height: 300px;
+      overflow: hidden;
+   }
+   .restaurant-items-img img{
+      margin-top: -25px;
+      height: 150%;
+      width: 150%;
+      margin-left: -25px;
+   }
+   .restaurant-img-item {
+      height: 270px;
+      overflow: hidden;
+   }
+   .restaurant-img-item img {
+      height: 150%;
+      width: 150%;
+      margin-top: -25px;
+      margin-left: -25px;
+   }
+   .rest-star p {
+      margin-left: -10px;
+   }
+}
+/*=========== Start Screen for max-width 375px ==========*/
+
+/*=========== Start Screen for max-width 375px ==========*/
+
+@media screen and (max-width:375px) {
+   .restaurant-items-img{
+      height: 250px;
+   }
+   .restaurant-items-img img{
+      margin-left: -25%;
+   }
+   .rest-title-detail h5{
+      margin-left: -15px;
+      font-size: 18px;
+   }
+   .rest-detail h5{
+      font-size: 16px;
+   }
+   .rest-detail p{
+      font-size: 14px;
+   }
+   .rest-detail{
+      margin-left: 0;
+   }
+   .restaurant-img-item{
+      height: 200px;
+   }
+   .restaurant-img-item img{
+      margin-left: -25%;
+   }
+}
+/*=========== End Screen for max-width 375px ==========*/
