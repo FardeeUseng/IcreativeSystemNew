@@ -1,2 +1,4 @@
-# IcreativeSystemNew
+# แนะนำระบบ
  
+###เป็น Web Applicatio สำหรับค้นหาร้านอาหารรวมถึงเลือกหาประเภทร้าน โดยดึงข้อมูลจาก JSON file ซึ่งตัว Web App รองรับทุกขนาดหน้าจอ ขนาดหน้าบน Destop จนถึง ขนาดมือถือ(Responsive Web App)
+
