@@ -7,13 +7,13 @@ function Restaurant(props) {
             {/*=========== Start Restaurant Top detail ==========*/}
 
             <div className="card-body">
-               <div className="restaurant-top d-flex">
+               <div className="restaurant-top">
                   <div className="rest-img shadow">
                      <img src={data.profile_image_url} alt={data.profile_image_url} />
                   </div>
                   <div className="rest-content">
                      <div className="rest-title">
-                        <h5 style={{textDecoration:'none'}}>{data.name}</h5>
+                        <h5>{data.name}</h5>
                      </div>
                   <div className="rest-open d-block d-sm-flex">
                      <div className="rest-open-left d-flex align-items-center">
